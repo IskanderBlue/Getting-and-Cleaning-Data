@@ -5,7 +5,7 @@ date: "Friday, August 22, 2014"
 output: html_document
 ---
 
-In the run_analysis.R script, I first
+In the long_form_run_analysis.R script, I first
 
 - set my working directory,
 - download and unzip the project data.  
@@ -44,6 +44,9 @@ After completing the primary tasks, my script
 - tries to automate most of the work involved in creating a codebook for tidyDataSubset.
 
 However, this section is commented out (since you don't need it to understand the tidyDataSubset, README.md, or codeBook.md).  
+
+
+Plain old run_analysis.R is the same script, but with the opening and closing sections cut -- in other words, just reading the data in and the 5 tasks.  
 
 There are extensive, almost line-by-line comments in run_analysis.R if anything in this README.md is unclear.  
 Thank you for reading!
