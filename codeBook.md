@@ -13,8 +13,9 @@ direction,)))) which had been normalized and bounded within [-1,1]).
 ```
 for [,3], or 
 ```
-The average (of the weighted averages of the frequency components (of the frequency domain signals (of the body
-(angular velocity (derivative (magnitudes))))), which had been normalized and bounded within [-1 ,1]).
+The average (of the weighted averages of the frequency components (of the frequency domain 
+signals (of the body (angular velocity (derivative (magnitudes))))), which had been normalized 
+and bounded within [-1 ,1]).
 ```
 for [,81], for example.  
 
