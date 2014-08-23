@@ -9,6 +9,9 @@ In the run_analysis.R script, I first
 
 - set my working directory,
 - download and unzip the project data,
+
+This is commented out, as the assignment presumes that the Samsung data is already is one's working directory.  
+
 - read the appropriate files in to R.  
 
 Then the assignment proper begins.  It requires that my script  
