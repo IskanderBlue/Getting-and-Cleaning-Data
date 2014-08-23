@@ -13,9 +13,7 @@ direction,)))) which had been normalized and bounded within [-1,1]).
 ```
 for [,3], or 
 ```
-The average (of the weighted averages of the frequency components (of the frequency domain 
-signals (of the body (angular velocity (derivative (magnitudes))))), which had been normalized 
-and bounded within [-1 ,1]).
+The average (of the weighted averages of the frequency components (of the frequency domain signals (of the body (angular velocity (derivative (magnitudes))))), which had been normalized and bounded within [-1 ,1]).
 ```
 for [,81], for example.  
 
@@ -26,10 +24,9 @@ variableName       "subject"
 
 variableFieldWidth "2"                                                                                                  
 
-variableDefinition "Quoting the original README.txt, '[A] group of 30 volunteers within an age bracket of 19
--48 years.'"
+variableDefinition "Quoting the original README.txt, '[A] group of 30 volunteers within an age bracket of 19-48 years.'"
 
-rangeOfValues      " 1  to  30"                                                                                         
+rangeOfValues      "1  to  30"                                                                                          
 
 [,2]                                                                                                                    
 
@@ -37,8 +34,7 @@ variableName       "activity"
 
 variableFieldWidth "17"                                                                                                                    
 
-variableDefinition "Quoting the original README.txt, 'Each person performed six activities [...] wearing a 
-smartphone [...] on the waist.'"
+variableDefinition "Quoting the original README.txt, 'Each person performed six activities [...] wearing a smartphone [...] on the waist.'"
 
 rangeOfValues      "laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs"                                                
 
@@ -48,10 +44,9 @@ variableName       "timeDomainBodyAccelerationMeanXAxis"
 
 variableFieldWidth "9"                                                                                                                                                         
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration in the X-axis 
-direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "0.2215982  to  0.3014610"                                                                                                                                  
+rangeOfValues      "0.22159824394  to  0.3014610196"                                                                                                                           
 
 [,4]                                                                                                                                                        
 
@@ -59,10 +54,9 @@ variableName       "timeDomainBodyAccelerationMeanYAxis"
 
 variableFieldWidth "12"                                                                                                                                                        
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration in the Y-axis 
-direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.001308288  to  -0.040513953"                                                                                                                            
+rangeOfValues      "-0.0405139534294  to  -0.00130828765170213"                                                                                                                
 
 [,5]                                                                                                                                                        
 
@@ -70,10 +64,9 @@ variableName       "timeDomainBodyAccelerationMeanZAxis"
 
 variableFieldWidth "11"                                                                                                                                                        
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration in the Z-axis 
-direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.07537847  to  -0.15251390"                                                                                                                              
+rangeOfValues      "-0.152513899520833  to  -0.07537846886"                                                                                                                    
 
 [,6]                                                                                                                                                                      
 
@@ -81,10 +74,9 @@ variableName       "timeDomainBodyAccelerationStandardDeviationXAxis"
 
 variableFieldWidth "12"                                                                                                                                                                      
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.008659219  to   0.626917071"                                                                                                                                          
+rangeOfValues      "-0.996068635384615  to  0.626917070512821"                                                                                                                               
 
 [,7]                                                                                                                                                                      
 
@@ -92,10 +84,9 @@ variableName       "timeDomainBodyAccelerationStandardDeviationYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                      
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.002320265  to   0.616937015"                                                                                                                                          
+rangeOfValues      "-0.990240946666667  to  0.616937015333333"                                                                                                                               
 
 [,8]                                                                                                                                                                      
 
@@ -103,10 +94,9 @@ variableName       "timeDomainBodyAccelerationStandardDeviationZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                      
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.00771530  to   0.60901788"                                                                                                                                            
+rangeOfValues      "-0.987658662307692  to  0.609017879074074"                                                                                                                               
 
 [,9]                                                                                                                                                           
 
@@ -114,10 +104,9 @@ variableName       "timeDomainGravityAccelerationMeanXAxis"
 
 variableFieldWidth "10"                                                                                                                                                           
 
-variableDefinition "The average of the means of the time domain signals of the gravity acceleration in the X
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the gravity acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.1348320  to   0.9745087"                                                                                                                                   
+rangeOfValues      "-0.680043155060241  to  0.974508732"                                                                                                                          
 
 [,10]                                                                                                                                                          
 
@@ -125,10 +114,9 @@ variableName       "timeDomainGravityAccelerationMeanYAxis"
 
 variableFieldWidth "12"                                                                                                                                                           
 
-variableDefinition "The average of the means of the time domain signals of the gravity acceleration in the Y
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the gravity acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.002814673  to   0.956593814"                                                                                                                               
+rangeOfValues      "-0.479894842941176  to  0.956593814210526"                                                                                                                    
 
 [,11]                                                                                                                                                          
 
@@ -136,10 +124,9 @@ variableName       "timeDomainGravityAccelerationMeanZAxis"
 
 variableFieldWidth "12"                                                                                                                                                           
 
-variableDefinition "The average of the means of the time domain signals of the gravity acceleration in the Z
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the gravity acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.001993106  to   0.957873042"                                                                                                                               
+rangeOfValues      "-0.49508872037037  to  0.9578730416"                                                                                                                          
 
 [,12]                                                                                                                                                                        
 
@@ -147,10 +134,9 @@ variableName       "timeDomainGravityAccelerationStandardDeviationXAxis"
 
 variableFieldWidth "10"                                                                                                                                                                         
 
-variableDefinition "The average of the standard deviations of the time domain signals of the gravity accelerat
-ion in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the gravity acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.8295549  to  -0.9967642"                                                                                                                                                 
+rangeOfValues      "-0.996764227384615  to  -0.829554947808219"                                                                                                                                 
 
 [,13]                                                                                                                                                                        
 
@@ -158,10 +144,9 @@ variableName       "timeDomainGravityAccelerationStandardDeviationYAxis"
 
 variableFieldWidth "10"                                                                                                                                                                         
 
-variableDefinition "The average of the standard deviations of the time domain signals of the gravity accelerat
-ion in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the gravity acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.6435784  to  -0.9942476"                                                                                                                                                 
+rangeOfValues      "-0.99424764884058  to  -0.643578361424658"                                                                                                                                  
 
 [,14]                                                                                                                                                                        
 
@@ -169,10 +154,9 @@ variableName       "timeDomainGravityAccelerationStandardDeviationZAxis"
 
 variableFieldWidth "10"                                                                                                                                                                         
 
-variableDefinition "The average of the standard deviations of the time domain signals of the gravity accelerat
-ion in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the gravity acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.6101612  to  -0.9909572"                                                                                                                                                 
+rangeOfValues      "-0.990957249538462  to  -0.610161166287671"                                                                                                                                 
 
 [,15]                                                                                                                                                                  
 
@@ -180,10 +164,9 @@ variableName       "timeDomainBodyAccelerationJerkMeanXAxis"
 
 variableFieldWidth "10"                                                                                                                                                                   
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration derivative in 
-the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "0.04268810  to  0.13019304"                                                                                                                                           
+rangeOfValues      "0.0426880986186441  to  0.130193043809524"                                                                                                                            
 
 [,16]                                                                                                                                                                  
 
@@ -191,10 +174,9 @@ variableName       "timeDomainBodyAccelerationJerkMeanYAxis"
 
 variableFieldWidth "13"                                                                                                                                                                   
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration derivative in 
-the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-1.085822e-02  to   9.913383e-03"                                                                                                                                     
+rangeOfValues      "-0.0386872111282051  to  0.056818586275"                                                                                                                              
 
 [,17]                                                                                                                                                                  
 
@@ -202,10 +184,9 @@ variableName       "timeDomainBodyAccelerationJerkMeanZAxis"
 
 variableFieldWidth "13"                                                                                                                                                                   
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration derivative in 
-the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-1.002129e-02  to   9.415473e-03"                                                                                                                                     
+rangeOfValues      "-0.0674583919268293  to  0.0380533591627451"                                                                                                                          
 
 [,18]                                                                                                                                                                                
 
@@ -213,10 +194,9 @@ variableName       "timeDomainBodyAccelerationJerkStandardDeviationXAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                 
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003583389  to   0.544273037"                                                                                                                                                     
+rangeOfValues      "-0.994604542264151  to  0.544273037307692"                                                                                                                                          
 
 [,19]                                                                                                                                                                                
 
@@ -224,10 +204,9 @@ variableName       "timeDomainBodyAccelerationJerkStandardDeviationYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                 
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.012350110  to   0.355306717"                                                                                                                                                     
+rangeOfValues      "-0.989513565652174  to  0.355306716915385"                                                                                                                                          
 
 [,20]                                                                                                                                                                                
 
@@ -235,10 +214,9 @@ variableName       "timeDomainBodyAccelerationJerkStandardDeviationZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                                 
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01351363  to   0.03101571"                                                                                                                                                       
+rangeOfValues      "-0.993288313333333  to  0.0310157077775926"                                                                                                                                         
 
 [,21]                                                                                                                                                           
 
@@ -246,10 +224,9 @@ variableName       "timeDomainBodyAngularVelocityMeanXAxis"
 
 variableFieldWidth "13"                                                                                                                                                            
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity in the X
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0028264191  to   0.1927044760"                                                                                                                              
+rangeOfValues      "-0.205775427307692  to  0.19270447595122"                                                                                                                      
 
 [,22]                                                                                                                                                           
 
@@ -257,10 +234,9 @@ variableName       "timeDomainBodyAngularVelocityMeanYAxis"
 
 variableFieldWidth "12"                                                                                                                                                            
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity in the Y
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.002471620  to   0.027470756"                                                                                                                                
+rangeOfValues      "-0.204205356087805  to  0.0274707556666667"                                                                                                                    
 
 [,23]                                                                                                                                                           
 
@@ -268,10 +244,8 @@ variableName       "timeDomainBodyAngularVelocityMeanZAxis"
 
 variableFieldWidth "13"                                                                                                                                                            
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity in the Z
--axis direction, which had been normalized and bounded within [-1,1]."
-
-rangeOfValues      "-0.0002332482  to   0.1791020582"                                                                                                                              
+variableDefinition "The average of the means of the time domain signals of the body angular velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+rangeOfValues      "-0.0724546025804878  to  0.179102058245614"                                                                                                                    
 
 [,24]                                                                                                                                                                         
 
@@ -279,10 +253,9 @@ variableName       "timeDomainBodyAngularVelocityStandardDeviationXAxis"
 
 variableFieldWidth "10"                                                                                                                                                                          
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0264358  to   0.2676572"                                                                                                                                                  
+rangeOfValues      "-0.994276591304348  to  0.267657219333333"                                                                                                                                   
 
 [,25]                                                                                                                                                                         
 
@@ -290,10 +263,9 @@ variableName       "timeDomainBodyAngularVelocityStandardDeviationYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                          
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.014839260  to   0.476518714"                                                                                                                                              
+rangeOfValues      "-0.994210471914894  to  0.476518714444444"                                                                                                                                   
 
 [,26]                                                                                                                                                                         
 
@@ -301,10 +273,9 @@ variableName       "timeDomainBodyAngularVelocityStandardDeviationZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                          
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.03140835  to   0.56487582"                                                                                                                                                
+rangeOfValues      "-0.985538363333333  to  0.564875818162963"                                                                                                                                   
 
 [,27]                                                                                                                                                                      
 
@@ -312,10 +283,9 @@ variableName       "timeDomainBodyAngularVelocityJerkMeanXAxis"
 
 variableFieldWidth "11"                                                                                                                                                                       
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity derivativ
-e in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02209163  to  -0.15721254"                                                                                                                                             
+rangeOfValues      "-0.157212539189362  to  -0.0220916265065217"                                                                                                                              
 
 [,28]                                                                                                                                                                      
 
@@ -323,10 +293,9 @@ variableName       "timeDomainBodyAngularVelocityJerkMeanYAxis"
 
 variableFieldWidth "11"                                                                                                                                                                       
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity derivativ
-e in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01320228  to  -0.07680899"                                                                                                                                             
+rangeOfValues      "-0.0768089915604167  to  -0.0132022768074468"                                                                                                                             
 
 [,29]                                                                                                                                                                      
 
@@ -334,10 +303,9 @@ variableName       "timeDomainBodyAngularVelocityJerkMeanZAxis"
 
 variableFieldWidth "12"                                                                                                                                                                       
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity derivativ
-e in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.006940664  to  -0.092499853"                                                                                                                                           
+rangeOfValues      "-0.0924998531372549  to  -0.00694066389361702"                                                                                                                            
 
 [,30]                                                                                                                                                                                    
 
@@ -345,10 +313,9 @@ variableName       "timeDomainBodyAngularVelocityJerkStandardDeviationXAxis"
 
 variableFieldWidth "11"                                                                                                                                                                                     
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.16394490  to   0.17914865"                                                                                                                                                           
+rangeOfValues      "-0.99654254057971  to  0.179148649684615"                                                                                                                                               
 
 [,31]                                                                                                                                                                                    
 
@@ -356,10 +323,9 @@ variableName       "timeDomainBodyAngularVelocityJerkStandardDeviationYAxis"
 
 variableFieldWidth "11"                                                                                                                                                                                     
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01462992  to   0.29594593"                                                                                                                                                           
+rangeOfValues      "-0.997081575652174  to  0.295945926186441"                                                                                                                                              
 
 [,32]                                                                                                                                                                                    
 
@@ -367,10 +333,9 @@ variableName       "timeDomainBodyAngularVelocityJerkStandardDeviationZAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                     
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.034421747  to   0.193206499"                                                                                                                                                         
+rangeOfValues      "-0.995380794637681  to  0.193206498960417"                                                                                                                                              
 
 [,33]                                                                                                                                          
 
@@ -378,10 +343,9 @@ variableName       "timeDomainBodyAccelerationMagnitudeMean"
 
 variableFieldWidth "13"                                                                                                                                           
 
-variableDefinition "The average of the means of the time domain signals of the body acceleration magnitudes, 
-which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0009713947  to   0.6446043251"                                                                                                             
+rangeOfValues      "-0.986493196666667  to  0.644604325128205"                                                                                                    
 
 [,34]                                                                                                                                                        
 
@@ -389,10 +353,9 @@ variableName       "timeDomainBodyAccelerationMagnitudeStandardDeviation"
 
 variableFieldWidth "11"                                                                                                                                                         
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01357712  to   0.42840592"                                                                                                                               
+rangeOfValues      "-0.986464542615385  to  0.428405922622222"                                                                                                                  
 
 [,35]                                                                                                                                             
 
@@ -400,10 +363,9 @@ variableName       "timeDomainGravityAccelerationMagnitudeMean"
 
 variableFieldWidth "13"                                                                                                                                              
 
-variableDefinition "The average of the means of the time domain signals of the gravity acceleration magnitudes
-, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the gravity acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0009713947  to   0.6446043251"                                                                                                                
+rangeOfValues      "-0.986493196666667  to  0.644604325128205"                                                                                                       
 
 [,36]                                                                                                                                                           
 
@@ -411,10 +373,9 @@ variableName       "timeDomainGravityAccelerationMagnitudeStandardDeviation"
 
 variableFieldWidth "11"                                                                                                                                                            
 
-variableDefinition "The average of the standard deviations of the time domain signals of the gravity accelerat
-ion magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the gravity acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01357712  to   0.42840592"                                                                                                                                  
+rangeOfValues      "-0.986464542615385  to  0.428405922622222"                                                                                                                     
 
 [,37]                                                                                                                                                     
 
@@ -425,7 +386,7 @@ variableFieldWidth "12"
 variableDefinition "The average of the means of the time domain signals of the body acceleration derivative 
 magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.017978463  to   0.434490401"                                                                                                                          
+rangeOfValues      "-0.99281471515625  to  0.434490400974359"                                                                                                                
 
 [,38]                                                                                                                                                                   
 
@@ -433,10 +394,9 @@ variableName       "timeDomainBodyAccelerationJerkMagnitudeStandardDeviation"
 
 variableFieldWidth "11"                                                                                                                                                                    
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration 
-derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body acceleration derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02028505  to   0.45061207"                                                                                                                                          
+rangeOfValues      "-0.994646916811594  to  0.450612065720513"                                                                                                                             
 
 [,39]                                                                                                                                              
 
@@ -444,10 +404,9 @@ variableName       "timeDomainBodyAngularVelocityMagnitudeMean"
 
 variableFieldWidth "12"                                                                                                                                               
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity magnitude
-s, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003102438  to   0.418004609"                                                                                                                   
+rangeOfValues      "-0.980740846769231  to  0.418004608615385"                                                                                                        
 
 [,40]                                                                                                                                                            
 
@@ -455,10 +414,9 @@ variableName       "timeDomainBodyAngularVelocityMagnitudeStandardDeviation"
 
 variableFieldWidth "11"                                                                                                                                                             
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02184632  to   0.29997598"                                                                                                                                   
+rangeOfValues      "-0.981372675614035  to  0.299975979851852"                                                                                                                      
 
 [,41]                                                                                                                                                         
 
@@ -466,10 +424,9 @@ variableName       "timeDomainBodyAngularVelocityJerkMagnitudeMean"
 
 variableFieldWidth "11"                                                                                                                                                          
 
-variableDefinition "The average of the means of the time domain signals of the body angular velocity derivativ
-e magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the time domain signals of the body angular velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.04631178  to   0.08758166"                                                                                                                                
+rangeOfValues      "-0.997322526811594  to  0.0875816618205128"                                                                                                                  
 
 [,42]                                                                                                                                                                       
 
@@ -477,10 +434,9 @@ variableName       "timeDomainBodyAngularVelocityJerkMagnitudeStandardDeviation"
 
 variableFieldWidth "11"                                                                                                                                                                        
 
-variableDefinition "The average of the standard deviations of the time domain signals of the body angular 
-velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the time domain signals of the body angular velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.04389850  to   0.25017320"                                                                                                                                              
+rangeOfValues      "-0.997666071594203  to  0.250173204117966"                                                                                                                                 
 
 [,43]                                                                                                                                                            
 
@@ -488,10 +444,9 @@ variableName       "frequencyDomainBodyAccelerationMeanXAxis"
 
 variableFieldWidth "11"                                                                                                                                                             
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration in the X
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02262392  to   0.53701202"                                                                                                                                   
+rangeOfValues      "-0.995249932641509  to  0.537012022051282"                                                                                                                      
 
 [,44]                                                                                                                                                            
 
@@ -499,10 +454,9 @@ variableName       "frequencyDomainBodyAccelerationMeanYAxis"
 
 variableFieldWidth "12"                                                                                                                                                             
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration in the Y
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.006237000  to   0.524187687"                                                                                                                                 
+rangeOfValues      "-0.989034304057971  to  0.524187686888889"                                                                                                                      
 
 [,45]                                                                                                                                                            
 
@@ -510,10 +464,9 @@ variableName       "frequencyDomainBodyAccelerationMeanZAxis"
 
 variableFieldWidth "11"                                                                                                                                                             
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration in the Z
--axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.04769426  to   0.28073595"                                                                                                                                   
+rangeOfValues      "-0.989473926666667  to  0.280735952206667"                                                                                                                      
 
 [,46]                                                                                                                                                                          
 
@@ -521,10 +474,9 @@ variableName       "frequencyDomainBodyAccelerationStandardDeviationXAxis"
 
 variableFieldWidth "12"                                                                                                                                                                           
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.004738197  to   0.658506543"                                                                                                                                               
+rangeOfValues      "-0.996604570307692  to  0.658506543333333"                                                                                                                                    
 
 [,47]                                                                                                                                                                          
 
@@ -532,10 +484,9 @@ variableName       "frequencyDomainBodyAccelerationStandardDeviationYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                           
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.002562942  to   0.560191344"                                                                                                                                               
+rangeOfValues      "-0.990680395362319  to  0.560191344"                                                                                                                                          
 
 [,48]                                                                                                                                                                          
 
@@ -543,10 +494,9 @@ variableName       "frequencyDomainBodyAccelerationStandardDeviationZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                           
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.03379653  to   0.68712416"                                                                                                                                                 
+rangeOfValues      "-0.987224804307692  to  0.687124163703704"                                                                                                                                    
 
 [,49]                                                                                                                                                                                                    
 
@@ -554,11 +504,9 @@ variableName       "frequencyDomainBodyAccelerationMeanFrequencyXAxis"
 
 variableFieldWidth "13"                                                                                                                                                                                                     
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]
-."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-1.057117e-01  to   9.101913e-02"                                                                                                                                                                       
+rangeOfValues      "-0.635913046346154  to  0.159123629063636"                                                                                                                                                              
 
 [,50]                                                                                                                                                                                                    
 
@@ -566,11 +514,9 @@ variableName       "frequencyDomainBodyAccelerationMeanFrequencyYAxis"
 
 variableFieldWidth "13"                                                                                                                                                                                                     
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]
-."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0020405110  to   0.4665282318"                                                                                                                                                                       
+rangeOfValues      "-0.379518455061538  to  0.466528231788462"                                                                                                                                                              
 
 [,51]                                                                                                                                                                                                    
 
@@ -578,11 +524,9 @@ variableName       "frequencyDomainBodyAccelerationMeanFrequencyZAxis"
 
 variableFieldWidth "13"                                                                                                                                                                                                     
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]
-."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0022519526  to   0.4025325534"                                                                                                                                                                       
+rangeOfValues      "-0.520114793584906  to  0.402532553395833"                                                                                                                                                              
 
 [,52]                                                                                                                                                                       
 
@@ -590,10 +534,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMeanXAxis"
 
 variableFieldWidth "12"                                                                                                                                                                        
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration 
-derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.007014723  to   0.474317256"                                                                                                                                            
+rangeOfValues      "-0.994630797358491  to  0.474317256051282"                                                                                                                                 
 
 [,53]                                                                                                                                                                       
 
@@ -601,10 +544,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMeanYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                        
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration 
-derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003091553  to   0.276716853"                                                                                                                                            
+rangeOfValues      "-0.989398823913043  to  0.276716853307692"                                                                                                                                 
 
 [,54]                                                                                                                                                                       
 
@@ -612,10 +554,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMeanZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                        
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration 
-derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02487898  to   0.15777569"                                                                                                                                              
+rangeOfValues      "-0.992018447826087  to  0.157775692377778"                                                                                                                                 
 
 [,55]                                                                                                                                                                                     
 
@@ -623,10 +564,9 @@ variableName       "frequencyDomainBodyAccelerationJerkStandardDeviationXAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                      
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.004262891  to   0.476803887"                                                                                                                                                          
+rangeOfValues      "-0.995073759245283  to  0.476803887476923"                                                                                                                                               
 
 [,56]                                                                                                                                                                                     
 
@@ -634,10 +574,9 @@ variableName       "frequencyDomainBodyAccelerationJerkStandardDeviationYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                      
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.001753920  to   0.349771285"                                                                                                                                                          
+rangeOfValues      "-0.990468082753623  to  0.349771285415897"                                                                                                                                               
 
 [,57]                                                                                                                                                                                     
 
@@ -645,10 +584,9 @@ variableName       "frequencyDomainBodyAccelerationJerkStandardDeviationZAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                      
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.006236475  to  -0.993107760"                                                                                                                                                          
+rangeOfValues      "-0.993107759855072  to  -0.00623647528983051"                                                                                                                                            
 
 [,58]                                                                                                                                                                                                               
 
@@ -656,11 +594,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMeanFrequencyXAxis"
 
 variableFieldWidth "11"                                                                                                                                                                                                                
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration derivative in the X-axis direction, which had been normalized and bounded 
-within [-1,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration derivative in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02350415  to   0.33144928"                                                                                                                                                                                      
+rangeOfValues      "-0.576044001875  to  0.331449281481482"                                                                                                                                                                            
 
 [,59]                                                                                                                                                                                                               
 
@@ -668,11 +604,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMeanFrequencyYAxis"
 
 variableFieldWidth "13"                                                                                                                                                                                                                
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration derivative in the Y-axis direction, which had been normalized and bounded 
-within [-1,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration derivative in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-1.057950e-02  to   9.874288e-02"                                                                                                                                                                                  
+rangeOfValues      "-0.601971415384615  to  0.195677336307692"                                                                                                                                                                         
 
 [,60]                                                                                                                                                                                                               
 
@@ -680,11 +614,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMeanFrequencyZAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                                                
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration derivative in the Z-axis direction, which had been normalized and bounded 
-within [-1,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration derivative in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003916088  to   0.230107946"                                                                                                                                                                                    
+rangeOfValues      "-0.62755547372549  to  0.230107945944444"                                                                                                                                                                          
 
 [,61]                                                                                                                                                                
 
@@ -692,10 +624,9 @@ variableName       "frequencyDomainBodyAngularVelocityMeanXAxis"
 
 variableFieldWidth "11"                                                                                                                                                                 
 
-variableDefinition "The average of the means of the frequency domain signals of the body angular velocity in 
-the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body angular velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02999700  to   0.47496245"                                                                                                                                       
+rangeOfValues      "-0.99312260884058  to  0.474962448333333"                                                                                                                           
 
 [,62]                                                                                                                                                                
 
@@ -703,10 +634,9 @@ variableName       "frequencyDomainBodyAngularVelocityMeanYAxis"
 
 variableFieldWidth "11"                                                                                                                                                                 
 
-variableDefinition "The average of the means of the frequency domain signals of the body angular velocity in 
-the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body angular velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.05570225  to   0.32881701"                                                                                                                                       
+rangeOfValues      "-0.994025488297872  to  0.328817010088889"                                                                                                                          
 
 [,63]                                                                                                                                                                
 
@@ -714,10 +644,9 @@ variableName       "frequencyDomainBodyAngularVelocityMeanZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                 
 
-variableDefinition "The average of the means of the frequency domain signals of the body angular velocity in 
-the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body angular velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01050471  to   0.49241438"                                                                                                                                       
+rangeOfValues      "-0.985957788  to  0.492414379822222"                                                                                                                                
 
 [,64]                                                                                                                                                                              
 
@@ -725,10 +654,9 @@ variableName       "frequencyDomainBodyAngularVelocityStandardDeviationXAxis"
 
 variableFieldWidth "10"                                                                                                                                                                               
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular 
-velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.1083888  to   0.1966133"                                                                                                                                                       
+rangeOfValues      "-0.994652185217391  to  0.196613286661538"                                                                                                                                        
 
 [,65]                                                                                                                                                                              
 
@@ -736,10 +664,9 @@ variableName       "frequencyDomainBodyAngularVelocityStandardDeviationYAxis"
 
 variableFieldWidth "11"                                                                                                                                                                               
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular 
-velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02848957  to   0.64623364"                                                                                                                                                     
+rangeOfValues      "-0.994353086595745  to  0.646233637037037"                                                                                                                                        
 
 [,66]                                                                                                                                                                              
 
@@ -747,10 +674,9 @@ variableName       "frequencyDomainBodyAngularVelocityStandardDeviationZAxis"
 
 variableFieldWidth "11"                                                                                                                                                                               
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular 
-velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.08225211  to   0.52245422"                                                                                                                                                     
+rangeOfValues      "-0.986725274871795  to  0.522454216314815"                                                                                                                                        
 
 [,67]                                                                                                                                                                                                        
 
@@ -758,11 +684,9 @@ variableName       "frequencyDomainBodyAngularVelocityMeanFrequencyXAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                                         
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body angular velocity in the X-axis direction, which had been normalized and bounded within [-1
-,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body angular velocity in the X-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003546796  to   0.249209412"                                                                                                                                                                             
+rangeOfValues      "-0.395770150677419  to  0.249209411510602"                                                                                                                                                                  
 
 [,68]                                                                                                                                                                                                        
 
@@ -770,11 +694,9 @@ variableName       "frequencyDomainBodyAngularVelocityMeanFrequencyYAxis"
 
 variableFieldWidth "12"                                                                                                                                                                                                         
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body angular velocity in the Y-axis direction, which had been normalized and bounded within [-1
-,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body angular velocity in the Y-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003516971  to   0.273141323"                                                                                                                                                                             
+rangeOfValues      "-0.666814815306122  to  0.273141323315789"                                                                                                                                                                  
 
 [,69]                                                                                                                                                                                                        
 
@@ -782,11 +704,9 @@ variableName       "frequencyDomainBodyAngularVelocityMeanFrequencyZAxis"
 
 variableFieldWidth "13"                                                                                                                                                                                                         
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body angular velocity in the Z-axis direction, which had been normalized and bounded within [-1
-,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body angular velocity in the Z-axis direction, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0051304019  to   0.3770740968"                                                                                                                                                                           
+rangeOfValues      "-0.507490866734694  to  0.3770740968"                                                                                                                                                                       
 
 [,70]                                                                                                                                               
 
@@ -794,10 +714,9 @@ variableName       "frequencyDomainBodyAccelerationMagnitudeMean"
 
 variableFieldWidth "12"                                                                                                                                                
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration 
-magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.003533418  to   0.586637551"                                                                                                                    
+rangeOfValues      "-0.986800645362319  to  0.586637550769231"                                                                                                         
 
 [,71]                                                                                                                                                             
 
@@ -805,10 +724,9 @@ variableName       "frequencyDomainBodyAccelerationMagnitudeStandardDeviation"
 
 variableFieldWidth "13"                                                                                                                                                              
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0214787882  to   0.1786845809"                                                                                                                                
+rangeOfValues      "-0.987648484461539  to  0.178684580868889"                                                                                                                       
 
 [,72]                                                                                                                                                                                       
 
@@ -816,10 +734,9 @@ variableName       "frequencyDomainBodyAccelerationMagnitudeMeanFrequency"
 
 variableFieldWidth "13"                                                                                                                                                                                        
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0003327540  to   0.4358469317"                                                                                                                                                          
+rangeOfValues      "-0.312338030213846  to  0.435846931652174"                                                                                                                                                 
 
 [,73]                                                                                                                                                          
 
@@ -827,10 +744,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMagnitudeMean"
 
 variableFieldWidth "13"                                                                                                                                                           
 
-variableDefinition "The average of the means of the frequency domain signals of the body acceleration 
-derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body acceleration derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0128823827  to   0.5384048461"                                                                                                                             
+rangeOfValues      "-0.993998275797101  to  0.538404846128205"                                                                                                                    
 
 [,74]                                                                                                                                                                        
 
@@ -838,10 +754,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMagnitudeStandardDeviatio
 
 variableFieldWidth "11"                                                                                                                                                                         
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body 
-acceleration derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body acceleration derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.01395391  to   0.31634642"                                                                                                                                               
+rangeOfValues      "-0.994366667681159  to  0.316346415348718"                                                                                                                                  
 
 [,75]                                                                                                                                                                                                  
 
@@ -849,10 +764,9 @@ variableName       "frequencyDomainBodyAccelerationJerkMagnitudeMeanFrequency"
 
 variableFieldWidth "13"                                                                                                                                                                                                   
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body acceleration derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body acceleration derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0002596381  to   0.4880884997"                                                                                                                                                                     
+rangeOfValues      "-0.125210388757581  to  0.488088499666667"                                                                                                                                                            
 
 [,76]                                                                                                                                                   
 
@@ -860,10 +774,9 @@ variableName       "frequencyDomainBodyAngularVelocityMagnitudeMean"
 
 variableFieldWidth "13"                                                                                                                                                    
 
-variableDefinition "The average of the means of the frequency domain signals of the body angular velocity 
-magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body angular velocity magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0003627297  to   0.2039797648"                                                                                                                      
+rangeOfValues      "-0.986535242105263  to  0.203979764835897"                                                                                                             
 
 [,77]                                                                                                                                                                 
 
@@ -871,10 +784,9 @@ variableName       "frequencyDomainBodyAngularVelocityMagnitudeStandardDeviation
 
 variableFieldWidth "11"                                                                                                                                                                  
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular 
-velocity magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular velocity magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.06147658  to   0.23665966"                                                                                                                                        
+rangeOfValues      "-0.981468841692308  to  0.236659662496296"                                                                                                                           
 
 [,78]                                                                                                                                                                                           
 
@@ -882,10 +794,9 @@ variableName       "frequencyDomainBodyAngularVelocityMagnitudeMeanFrequency"
 
 variableFieldWidth "13"                                                                                                                                                                                            
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body angular velocity magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body angular velocity magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0002621867  to   0.4095216115"                                                                                                                                                              
+rangeOfValues      "-0.456638670923077  to  0.409521611525424"                                                                                                                                                     
 
 [,79]                                                                                                                                                              
 
@@ -893,10 +804,9 @@ variableName       "frequencyDomainBodyAngularVelocityJerkMagnitudeMean"
 
 variableFieldWidth "11"                                                                                                                                                               
 
-variableDefinition "The average of the means of the frequency domain signals of the body angular velocity 
-derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the means of the frequency domain signals of the body angular velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.02290453  to   0.14661857"                                                                                                                                     
+rangeOfValues      "-0.997617389275362  to  0.146618569064407"                                                                                                                        
 
 [,80]                                                                                                                                                                            
 
@@ -904,10 +814,9 @@ variableName       "frequencyDomainBodyAngularVelocityJerkMagnitudeStandardDevia
 
 variableFieldWidth "11"                                                                                                                                                                             
 
-variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular 
-velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
+variableDefinition "The average of the standard deviations of the frequency domain signals of the body angular velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.03985738  to   0.28783462"                                                                                                                                                   
+rangeOfValues      "-0.99758523057971  to  0.287834616098305"                                                                                                                                       
 
 [,81]                                                                                                                                                                                                      
 
@@ -915,8 +824,6 @@ variableName       "frequencyDomainBodyAngularVelocityJerkMagnitudeMeanFrequency
 
 variableFieldWidth "13"                                                                                                                                                                                                       
 
-variableDefinition "The average of the weighted averages of the frequency components of the frequency domain 
-signals of the body angular velocity derivative magnitudes, which had been normalized and bounded within [-1
-,1]."
+variableDefinition "The average of the weighted averages of the frequency components of the frequency domain signals of the body angular velocity derivative magnitudes, which had been normalized and bounded within [-1,1]."
 
-rangeOfValues      "-0.0002340192  to   0.4263016799" 
+rangeOfValues      "-0.182923596577778  to  0.426301679855072" 
