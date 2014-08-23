@@ -163,8 +163,14 @@ tidyDataSubset <- dcast(meltedDataSubset, subject + activity ~ variable, mean)
 # variableDefinition[1] <- "Quoting the original README.txt, '[A] group of 30 volunteers within an age bracket of 19-48 years.'"
 # variableDefinition[2] <- "Quoting the original README.txt, 'Each person performed six activities [...] wearing a smartphone [...] on the waist.'"
 # # Automating rangeOfValues for all but the 2nd term.  
-# rangeOfValues <-  paste( apply(tidyDataSubset, 2, min), " to ", 
-#                          apply(tidyDataSubset, 2, max))
+# mins <- c()
+# maxs <- c()
+# length(tidyDataSubset)
+# for (i in 1:length(tidyDataSubset)) {
+#       mins[i] <- min(tidyDataSubset[,i])
+#       maxs[i] <- max(tidyDataSubset[,i])
+# }
+# rangeOfValues <-  paste(mins, " to ", maxs)
 # # Copying out the range of values for the activity variable.  
 # for (i in 1:6) {
 #       if (i == 1) { 
@@ -180,4 +186,4 @@ tidyDataSubset <- dcast(meltedDataSubset, subject + activity ~ variable, mean)
 #                   rangeOfValues)
 # # I am aware that typically, cbind() would be more appropriate, but for my 
 # # purpose, rbind() made more sense.  
-
+# codeBook
